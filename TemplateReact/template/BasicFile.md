@@ -1,12 +1,11 @@
-# Template Basic React v0.3
+# Template Basic React v0.6
 ## Documentation Basic File & Folder 
-### "Permet de conaitre l'utilité de chaque Dossier/Fichier '
+### "compréhension de chaque Dossier/Fichier"
 
-0.  [X] 
 
-1.  **Document à savoir**
+  **Document à savoir :**
 -----
-- **node_modules :**
+1. **node_modules :**
 
 ***'node_modules'*** est un répertoire qui contient toutes les dépendances de votre projet React. Lorsque vous installez un paquet npm (Node Package Manager) avec la commande npm install, le paquet est téléchargé et placé dans le répertoire ***'node_modules'***. 
 >Les paquets dans node_modules peuvent être importés dans votre code React et utilisés pour ajouter des fonctionnalités ou des bibliothèques utiles à votre application.
@@ -15,7 +14,7 @@
 
 >En résumé, node_modules est un répertoire qui contient toutes les dépendances de votre projet React et est essentiel pour le bon fonctionnement de votre application.
 ------
-- **répertoire public :**
+2. **répertoire public :**
 
 Dans un projet React, le ***'répertoire public'*** contient des fichiers qui sont accessibles directement par le navigateur lorsque votre application est en cours d'exécution. Ces fichiers sont généralement utilisés pour les ressources statiques de votre application, comme les images, les polices et les fichiers de style.
 
@@ -26,7 +25,7 @@ Le ***'répertoire public'*** est également utile pour les fichiers de configur
 >En résumé, le répertoire public contient des fichiers statiques qui sont accessibles directement par le navigateur lorsque votre application React est en cours d'exécution. Il est utilisé pour stocker les ressources statiques de votre application, ainsi que les fichiers de configuration et le point d'entrée de votre application.
 
 
-- **robot.txt :**
+3. **robot.txt :**
 
 
 Le fichier ***'robots.txt'*** est un fichier de configuration utilisé par les moteurs de recherche pour indiquer quelles pages ou parties d'un site Web doivent être indexées. *Il s'agit d'un moyen de contrôler l'accès des robots de recherche aux pages de votre site.*
@@ -35,7 +34,7 @@ Dans le contexte de React, le fichier ***'robots.txt'*** n'a pas d'utilité part
 
 >Il est important de noter que le fichier robots.txt n'est pas un moyen de sécuriser votre site Web ou de protéger les informations confidentielles. Les moteurs de recherche sont libres d'ignorer les instructions du fichier ***'robots.txt'*** et de continuer à indexer votre site. Il ne doit donc pas être utilisé comme mécanisme de sécurité principal, *mais plutôt comme un outil de gestion de l'indexation de votre site par les moteurs de recherche.* 
 ---
-1. ***répertoire src :***
+4. ***répertoire src :***
 
 Dans un projet *React*, le  ***répertoire src*** *(source)* contient le code source de votre application. C'est là que vous écrirez la plupart du code de votre application, y compris les composants React, les styles et les fonctionnalités de votre application.
 
@@ -45,18 +44,18 @@ Le  ***répertoire src*** est également souvent utilisé pour stocker les donn�
 
 >En résumé, le répertoire src est le cœur de votre projet React et contient le code source de votre application. C'est là que vous écrirez la plupart du code de votre application et où vous organiserez le code en fonction de sa fonction.
 
-2. ***App.js :***
+5. ***App.js :***
 
 Dans un projet *React*, le fichier ***App.js*** est généralement utilisé pour définir le composant principal de votre application, qui est souvent appelé le composant "racine" de votre application. 
 >Il s'agit du composant qui est chargé en premier lorsque votre application est exécutée et qui contient généralement d'autres composants enfants qui forment l'interface utilisateur de votre application.
 
-3. ***index.js :***
+6. ***index.js :***
 
 Le fichier ***index.js***, quant à lui, est généralement utilisé pour configurer et lancer votre application *React*. Il importe le composant principal de votre application **(défini dans App.js)** et le rend dans l'élément de la page Web qui a l'identifiant *'root'*. Le fichier ***index.js*** peut également être utilisé pour configurer d'autres choses, comme les middlewares ou les routes de votre application.
 
 >En résumé, le fichier App.js est utilisé pour définir le composant principal de votre application et le fichier index.js est utilisé pour configurer et lancer votre application React. Ces fichiers jouent un rôle clé dans la structure de votre projet React et sont essentiels pour le bon fonctionnement de votre application.
 
-4. ***reportWebVitals.js*** & ***setupTests.js :***
+7. ***reportWebVitals.js*** & ***setupTests.js :***
 
 >Le fichier ***reportWebVitals.js*** et le fichier ***setupTests.js*** sont généralement inclus dans un projet React pour permettre de suivre et d'améliorer les performances de votre application.
 
@@ -70,7 +69,7 @@ Le fichier ***setupTests.js*** est utilisé pour configurer les tests unitaires 
 
 >En résumé, le fichier ***reportWebVitals.js*** et le fichier ***setupTests.js :*** sont utilisés pour suivre et améliorer les performances de votre application *React* en mesurant les métriques de performance clés et en configurant les tests unitaires de votre application.
 ---
-5. ***.gitignore :***
+8. ***.gitignore :***
 
 Le fichier ***.gitignore*** est utilisé pour indiquer à **Git** quels *fichiers ou répertoires doivent être ignorés lors de la publication ou du suivi des modifications de votre projet.* Cela est utile pour éviter de versionner des fichiers qui ne sont pas essentiels au fonctionnement de votre application, comme les fichiers de build ou les fichiers de configuration de l'environnement de développement.
 
